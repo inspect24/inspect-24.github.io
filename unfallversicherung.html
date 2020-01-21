@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+       
+      <meta charset="utf-8">
+      
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     
+      <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+      <title>inspect-24</title>
+    
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+     
+    </head>
+
+
+<!--------------------------------------------header nav--------------------------------------------------------->
+    <body>  
+        <header>
+            <div class="container-fluid">
+                <!--------------------------------------- big ------------------------------------->
+                <div class="row firstheader big">
+                    <div class="nav-logo col-md-2">
+                        <a href="/website_ver_1/inspect-24.html"><img class="logo" src="img/logo_cut.png" title="Logo"></a>
+                    </div>
+                    
+                    <div class="nav-header col-md-10">
+                        <div class="row">
+                            <div class="nav-header-search col-xl-8 col-md-6">
+                                <nav class="navbar">
+                                    <form class="form-inline fullwidth">
+                                        <input class="form-control own" type="text" name="search"  value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="Was möchten Sie vergleichen?" aria-label="Search">
+                                        <button class="btn own" type="submit"><img class="search" src="img/search_white.png" title="lupe"></button>
+                                    </form>
+                                </nav>
+                            </div>
+                            <div class="nav-header-tel col-xl-3 col-md-5">
+                                <img class="phone" src="img/telephone.png" title="phone">
+                                <h3>+49 (7431) 9897624</h3>
+                                <p>Rufen Sie uns an, wir beraten Sie gerne!</p>
+                            </div>
+                            <div class="nav-header-login col-xl-1 col-md-1">
+                                <div class="dropdown">
+                                    <!-- <button class="btn login dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+                                    <button type="button" data-container="body" data-toggle="popover" 
+                                      data-placement="bottom" data-content="Derzeit nicht möglich." class="login btn dropdown-toggle" type="button" id="dropdownMenu">
+                                      <img class="login" src="img/login.png" title="login">
+                                      <p>Login</p>
+                                    </button>
+                                   <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <button class="dropdown-item" type="button">Anmelden</button>
+                                      <button class="dropdown-item" type="button">Registrieren</button>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row secondheader big">
+                    <div class="col-md-12 nopadding">
+                        <ul class="navbar">
+                            <li class="navbar-item navdrop">
+                                <a class="nav-link" href="#">Sach & KFZ</a>
+                                <div class="dropdown-content">
+                                    <a href="autoversicherung.html">Autoversicherung</a>
+                                    <a href="motorradversicherung.html">Motorradversicherung</a>
+                                    <a href="haftpflicht.html">Haftpflichtversicherung</a>
+                                    <a href="hundehalterhaftpflicht.html">Hundehalterhaftpflicht</a>
+                                    <a href="pferdehalterhaftpflicht.html">Pferdehalterhaftpflicht</a>
+                                    <a href="rechtsschutzversicherung.html">Rechtsschutzversicherung</a>
+                                    <a href="unfallversicherung.html">Unfallversicherung</a>
+                                    <a href="reiseversicherung.html">Reiseversicherung</a>
+                                    <a href="gewerbeversicherung.html">Gewerbeversicherung</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop">
+                                <a class="nav-link" href="#">Wohnung & Haus</a>
+                                <div class="dropdown-content">
+                                    <a href="hausratversicherung.html">Hausratversicherung</a>
+                                    <a href="gebaeudeversicherung.html">Gebäudeversicherung</a>
+                                    <a href="grundbesitzerhaftpflicht.html">Grundbesitzerhaftpflicht</a>
+                                    <a href="photovoltaikversicherung.html">Photovoltaikversicherung</a>
+                                    <a href="bauherrenhaftpflicht.html">Bauherrenhaftpflicht</a>
+                                    <a href="baufinanzierung.html">Baufinanzierung</a>
+                                    <a href="bausparen.html">Bausparen</a>
+                                    <a href="oeltankversicherung.html">Öltankversicherung</a>
+                                    <a href="feuerrohbauversicherung.html">Feuerrohbauversicherung</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop">
+                                <a class="nav-link" href="#">Pflege & Krankheit</a>
+                                <div class="dropdown-content">
+                                    <a href="krankenzusatzversicherung.html">Krankenzusatzversicherung</a>
+                                    <a href="pflegeversicherung.html">Pflegeversicherung</a>
+                                    <a href="private_krankenversicherung.html">Private Krankenversicherung</a>
+                                    <a href="gesetzliche_krankenversicherung.html">Gesetzliche Krankenversicherung</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop">
+                                <a class="nav-link" href="#">Rente & Vorsorge</a>
+                                <div class="dropdown-content">
+                                    <a href="berufsunfähigkeitsversicherung.html"> Berufs­unfähigkeitsversicherung</a>
+                                    <a href="risikolebensversicherung.html">Risikolebensversicherung</a>
+                                    <a href="altersvorsorge.html">Altersvorsorge</a>
+                                    <a href="schwere_krankheiten_versicherung.html">Schwere Krankheiten Versicherung</a>
+                                    <a href="riesterrente.html">Riesterrente</a>
+                                    <a href="basisrente.html">Basisrente</a>
+                                    <a href="rentenversicherung.html">Rentenversicherung</a>
+                                    <a href="fondsgebundene_lebensversicherung.html">Fondsgebundene Lebensversicherung</a>
+                                    <a href="fondsgebundene_rentenversicherung.html">Fondsgebundene Rentenversicherung</a>
+                                    <a href="kapitallebensversicherung.html">Kapitallebensversicherung</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop">
+                                <a class="nav-link" href="#">Geld & Sparen</a>
+                                <div class="dropdown-content">
+                                    <a href="strom.html">Strom</a>
+                                    <a href="gas.html">Gas</a>
+                                    <a href="dsl.html">DSL</a>
+                                    <a href="girokonto.html">Girokonto</a>
+                                    <a href="tagesgeld.html">Tagesgeld</a>
+                                    <a href="konsumkredit.html">Konsumkredit</a>
+                                    <a href="handytarife.html">Handytarife</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop">
+                                <a class="nav-link" href="/website_ver_1/kontakt.html">Kontakt</a>
+                            </li>
+                            <li class="navbar-item navdrop">
+                                <a class="nav-link" href="/website_ver_1/bedarfsermittler.html">Bedarfsermittlung</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!------------------------------------------ small ---------------------------------------->
+                <div class="row small" style="display:none;">
+                    <div class="col-sm-12" id="navi">
+                        <div class="nav-logo">
+                            <a href="/website_ver_1/inspect-24.html"><img class="logo" src="img/logo_cut2.png" title="Logo"></a>
+                        </div>
+                        <nav class="navbar navbar-expand-lg navbar-dark">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                            aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar">
+                            <li class="navbar-item navdrop nav-item">
+                                <a class="nav-link" href="#">Sach & KFZ</a>
+                                <div class="dropdown-content">
+                                    <a href="autoversicherung.html">Autoversicherung</a>
+                                    <a href="motorradversicherung.html">Motorradversicherung</a>
+                                    <a href="haftpflicht.html">Haftpflichtversicherung</a>
+                                    <a href="hundehalterhaftpflicht.html">Hundehalterhaftpflicht</a>
+                                    <a href="pferdehalterhaftpflicht.html">Pferdehalterhaftpflicht</a>
+                                    <a href="rechtsschutzversicherung.html">Rechtsschutzversicherung</a>
+                                    <a href="unfallversicherung.html">Unfallversicherung</a>
+                                    <a href="reiseversicherung.html">Reiseversicherung</a>
+                                    <a href="gewerbeversicherung.html">Gewerbeversicherung</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop nav-item">
+                                <a class="nav-link" href="#">Wohnung & Haus</a>
+                                <div class="dropdown-content">
+                                    <a href="hausratversicherung.html">Hausratversicherung</a>
+                                    <a href="gebaeudeversicherung.html">Gebäudeversicherung</a>
+                                    <a href="grundbesitzerhaftpflicht.html">Grundbesitzerhaftpflicht</a>
+                                    <a href="photovoltaikversicherung.html">Photovoltaikversicherung</a>
+                                    <a href="bauherrenhaftpflicht.html">Bauherrenhaftpflicht</a>
+                                    <a href="baufinanzierung.html">Baufinanzierung</a>
+                                    <a href="bausparen.html">Bausparen</a>
+                                    <a href="oeltankversicherung.html">Öltankversicherung</a>
+                                    <a href="feuerrohbauversicherung.html">Feuerrohbauversicherung</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop nav-item">
+                                <a class="nav-link" href="#">Pflege & Krankheit</a>
+                                <div class="dropdown-content">
+                                    <a href="krankenzusatzversicherung.html">Krankenzusatzversicherung</a>
+                                    <a href="pflegeversicherung.html">Pflegeversicherung</a>
+                                    <a href="private_krankenversicherung.html">Private Krankenversicherung</a>
+                                    <a href="gesetzliche_krankenversicherung.html">Gesetzliche Krankenversicherung</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop nav-item">
+                                <a class="nav-link" href="#">Rente & Vorsorge</a>
+                                <div class="dropdown-content">
+                                    <a href="berufsunfähigkeitsversicherung.html"> Berufs­unfähigkeitsversicherung</a>
+                                    <a href="risikolebensversicherung.html">Risikolebensversicherung</a>
+                                    <a href="altersvorsorge.html">Altersvorsorge</a>
+                                    <a href="schwere_krankheiten_versicherung.html">Schwere Krankheiten Versicherung</a>
+                                    <a href="riesterrente.html">Riesterrente</a>
+                                    <a href="basisrente.html">Basisrente</a>
+                                    <a href="rentenversicherung.html">Rentenversicherung</a>
+                                    <a href="fondsgebundene_lebensversicherung.html">Fondsgebundene Lebensversicherung</a>
+                                    <a href="fondsgebundene_rentenversicherung.html">Fondsgebundene Rentenversicherung</a>
+                                    <a href="kapitallebensversicherung.html">Kapitallebensversicherung</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop nav-item">
+                                <a class="nav-link" href="#">Geld & Sparen</a>
+                                <div class="dropdown-content">
+                                    <a href="strom.html">Strom</a>
+                                    <a href="gas.html">Gas</a>
+                                    <a href="dsl.html">DSL</a>
+                                    <a href="girokonto.html">Girokonto</a>
+                                    <a href="tagesgeld.html">Tagesgeld</a>
+                                    <a href="konsumkredit.html">Konsumkredit</a>
+                                    <a href="handytarife.html">Handytarife</a>
+                                </div>
+                            </li>
+                            <li class="navbar-item navdrop nav-item">
+                                <a class="nav-link" href="/website_ver_1/kontakt.html">Kontakt</a>
+                            </li>
+                            <li class="navbar-item navdrop nav-item">
+                                <a class="nav-link" href="/website_ver_1/bedarfsermittler.html">Bedarfsermittlung</a>
+                            </li>
+                        </ul>
+                            </div>
+                        </nav> 
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        
+        <div class="_car">
+            <img class="car_bg" src="img/unfall.jpg">
+            <div class="caption" style="text-align:left; top: 200px; left: 50px;">
+                <h5>Unfallversicherung</h5>
+                <p>Unfälle passieren schnell und unerwartet. Lange Krankenhausaufenthalte, 
+                    kostspielige OPs oder Invalidität können die Folge sein. 
+                    Eine Unfallversicherung schützt Sie vor den finanziellen Folgen eines Unfalls und sorgt dafür, 
+                    dass Sie Ihren Alltag auch nach dem Unfall sicher und sorgenfrei meistern können.
+                </p>
+                <button type="button" class="btn vergleich" data-container="body" data-toggle="popover" 
+                data-placement="bottom" data-content="Sorry! Dieser Rechner ist zur Zeit nicht verfügbar.">Hier vergleichen!</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="kontaktaufnahme">
+                <h3>Kontaktaufnahme</h3>
+                <p>Nehmen Sie gerne Kontakt mit uns auf, wenn Sie noch Fragen haben oder Hilfe brauchen. 
+                    Unter diesem Button können Sie Ihre Kontaktdaten hinterlassen und uns eine Nachricht senden.
+                </p>
+                <button class="btn vergleich">Zum Kontaktformular</button>
+            </div>
+        </div>
+    </body>
+    
+        <!----------------------------footer big --------------------------------->
+    <footer class="big2">
+        <div class="container-fluid">
+            <div class="row footerinsta">
+                <div class="col-lg-4 col-md-3 col-sm-2">
+                        <a href="/website_ver_1/inspect-24.html"><img class="footerlogo" src="img/logo_cut.png" title="Logo"></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <nav class="footernav">
+                        <a class="nav-link" href="/website_ver_1/kontakt.html">Kontakt</a>
+                        <a class="nav-link" href="/website_ver_1/impressum.html">Impressum</a>
+                        <a class="nav-link" href="/website_ver_1/datenschutz.html">Datenschutz</a>
+                    </nav>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3">
+                    <a  target="_blank" href="https://www.facebook.com/Inspect24/">
+                        <img class="socialmed" id="fb" src="img/facebook.png">
+                    </a>
+                    <a target="_blank" href="https://de.linkedin.com/in/andreas-kandlen-15a706146">
+                        <img class="socialmed" id="tw" src="img/linkedin.png">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/inspect_24/">
+                        <img class="socialmed" id="in" src="img/instagram.png">
+                    </a>
+                    <a target="_blank" href="https://www.xing.com/profile/Andreas_Kandlen/cv">
+                        <img class="socialmed" id="xi" src="img/xing.png">
+                    </a>
+                </div>                
+            </div>
+            <div class="row footercopy">
+                <p class="copyright">© 2020 Inspect24</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-----------------------------------------footer small -------------------------------------->
+    <footer class="small2" style="display:none;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 padleft">
+                    <nav class="footernav">
+                        <a class="nav-link" href="/website_ver_1/kontakt.html">Kontakt</a>
+                        <a class="nav-link" href="/website_ver_1/impressum.html">Impressum</a>
+                        <a class="nav-link" href="/website_ver_1/datenschutz.html">Datenschutz</a>
+                    </nav>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row footsmall">
+                <div class="col-sm-3 col-xs-6">
+                    <a href="/website_ver_1/inspect-24.html"><img class="footerlogo" src="img/logo_cut3.png" title="Logo"></a>
+                </div>
+                <div class="col-sm-4 col-xs-0"></div>
+                <div class="col-sm-5 col-xs-6" style="padding-right:0px;">
+                    <a  target="_blank" href="https://www.facebook.com/Inspect24/">
+                        <img class="socialmed" id="fb" src="img/facebook.png">
+                    </a>
+                    <a target="_blank" href="https://de.linkedin.com/in/andreas-kandlen-15a706146">
+                        <img class="socialmed" id="tw" src="img/linkedin.png">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/inspect_24/">
+                        <img class="socialmed" id="in" src="img/instagram.png">
+                    </a>
+                    <a target="_blank" href="https://www.xing.com/profile/Andreas_Kandlen/cv">
+                        <img class="socialmed" id="xi" src="img/xing.png">
+                    </a>
+                </div>    
+            </div>
+            <div class="row footercopy">
+                <p class="copyright">© 2020 Inspect24</p>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script> $(function () {
+        $('[data-toggle="popover"]').popover()})
+    </script>
+</html>
+    

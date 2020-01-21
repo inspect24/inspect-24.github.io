@@ -1,0 +1,432 @@
+h1, h2, h3, h4, h5, p{
+    font-family:'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    width:100%;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding:0px;
+}
+
+img.logo{
+    width: 160px;
+}
+
+header .secondheader{
+    background-color:#FFC000;
+}
+
+div.nav-logo{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+div.nav-logo.mid{
+    background-color:#ffc000;
+}
+
+.navbar a{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+}
+
+.navbar a:hover{
+    color:#FFF5B0;
+}
+
+div.nopadding{
+    padding:0px;
+}
+
+.form-inline.fullwidth {
+    width:100%;
+    margin-top: 5px;
+}
+
+.form-inline.fullwidth .form-control {
+    width: 90%;
+}
+
+.form-control.own, .btn.own {
+    border-radius:0rem;
+}
+
+.btn.own {
+    background-color:#FFC000;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+img.search{
+    width: 27px;
+}
+
+.form-control.own::placeholder{
+    color:#C0C7C3;
+}
+
+.form-control.own:focus {
+    border-color:#FFC000;
+    box-shadow:none;
+}
+
+.nav-header-tel img{
+    float:left;
+    width:35px;
+    margin-right: 10px;
+}
+
+.nav-header-tel{
+    padding:0px;
+    padding-top: 13px;
+}
+
+.nav-header-tel h3{
+    font-size:20px;
+    margin-top: -2px;
+
+}
+
+.nav-header-tel p{
+    font-size: 10px;
+    padding-left: 50px;
+    margin-top: -10px;
+}
+
+.btn.login{
+    background-color:transparent;
+}
+
+img.login{
+    width:30px;
+    margin-top:5px;
+}
+
+.login p{
+    font-size: 15px;
+    color: #FFC000;
+    margin-bottom: 0px;
+    font-weight: 700;
+    margin-top: -4px;
+}
+
+.nav-header-login .col-md-1{
+    padding:0px;
+}
+
+.dropdown-menu.show{
+    top: 88px;
+    left: -96px;
+    transform:none;
+}
+
+.login.dropdown-toggle::after{
+    content:none;
+}
+
+.login.dropdown-toggle:focus, .login.dropdown-toggle{
+    border:none;
+    box-shadow:none;
+}
+
+.login.dropdown-toggle{
+    background-color:#FFF5B0;
+    border-radius:0px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+}
+
+.dropdown{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+img.sliderpic{
+    width:100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width:10%;
+    opacity: 0.7;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/next.png);
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/prev.png);
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-caption {
+    bottom: 30px;
+}
+
+.carousel-caption.motorradcap {
+    text-align:left;
+    width:400px;
+    left: 10%;
+}
+
+.carousel-caption.mopedcap {
+    text-align:right;
+    top:30px;
+    right: 10%;
+    width:600px;
+    left:auto;
+}
+
+.btn.vergleich{
+    background-color:#FFC000;
+    color:white;
+}
+
+button.btn{
+    font-weight:500;
+}
+
+button.btn:focus{
+    border:none;
+    box-shadow:none;
+}
+
+.btn.vergleich:hover{
+    color:black;
+}
+
+.carousel-indicators li{
+    width: 45px;
+}
+
+h2.align_center{
+    color:#FFC000;
+    margin-bottom:40px;
+    font-size:34px;
+    margin-top:60px;
+}
+
+h2.align_center.margmin{
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.align_center{
+    text-align:center;
+}
+
+.container{
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.learnmore{
+    background-color: #FFF5B0;
+    color:#FFC000;
+}
+
+.learnmore{
+    margin-top:15px;
+}
+
+.learnmore:hover{
+    background:#FFC000;
+    color:white;
+}
+
+.calculate .btn{
+    background-color:white;
+    color:#FFC000;
+    border:1px solid #FFC000;
+}
+
+.calculate .btn:hover{
+    background:#FFC000;
+    color:white;
+}
+
+.calculate h5{
+    font-size: 20px;
+}
+
+.calculate p{
+    font-size:15px;
+}
+
+.card{
+    background-color:#FFF5B0; 
+    border: 1px solid rgba(255,192,0,.5);
+    text-align:center;
+}
+
+.calculate h2{
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+
+.peach{
+    background-color:rgba(255, 251, 58, 0.15);
+    margin-top:90px;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+
+.interesting.crop{
+    padding-left:50px;
+    padding-right:50px;
+    text-align:center;
+}
+
+.date{
+    font-size:12px;
+}
+
+hr{
+    border-top: 1px solid rgba(0,0,0,.4);
+}
+
+.interesting .btn{
+    color:white;
+    background: #FFEE86;
+    margin-top:20px;
+}
+
+.interesting .btn:hover{
+    background:#ffc000;
+    color:white;
+}
+
+#iconsource{
+    font-size:8px;
+    margin-bottom:0px;
+    position: absolute;
+    right: 5px;
+    margin-top: 5px;
+}
+
+#iconsource a{
+    text-decoration:none;
+    color:black;
+}
+
+.copyright{
+    margin-bottom:0px;
+    font-size:12px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.footercopy{
+    background-color:#ffc000;
+    height:20px;
+}
+
+.footerinsta{
+    height:50px;
+}
+
+.footerlogo{
+    width:130px;
+    margin-top: 4px;
+}
+
+.footerinsta .col-md-4{
+    padding:0px;
+}
+
+.footernav .nav-link{
+    float:left;
+    padding:0px;
+    margin-top: 15px;
+    position: relative;
+    left: 120px;
+    color:black;
+}
+
+.footernav .nav-link:hover{
+    color:#ffc000;
+}
+
+.footernav .nav-link:first-of-type{
+    padding-right:20px;
+    border-right:1px solid rgba(0,0,0,.7);
+}
+
+.footernav .nav-link:last-of-type{
+    padding-left:20px;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.socialmed{
+    float: right;
+    margin-top: 12px;
+    width: 28px;
+    margin-right: 10px;
+}
+
+footer img:hover, header img:hover{
+    cursor: pointer;
+}
+
+.navdrop {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar .dropdown-content a{
+    color:rgba(0, 0, 0, 0.8);
+    padding-left:15px;
+    padding-right:50px;
+    padding-bottom:15px;
+    float:left;
+    line-height: 1.2;
+}
+
+.navbar .dropdown-content a:first-of-type{
+    padding-top:15px;
+}
+
+.navdrop:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .dropdown-content a:hover{
+    text-decoration:none;
+    color:#ffc000;
+}
+
+.nav-header-tel {
+    padding-left:30px;
+}
+
+.drop{
+    display:none;
+}
+
+.navbar a {
+    font-size: 20px;
+}
